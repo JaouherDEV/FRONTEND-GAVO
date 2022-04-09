@@ -6,7 +6,7 @@ const routes: Routes = [
     path: '',
     children: [
       {
-        path: 'recherche-vol',
+        path: 'Ajouter-vols',
         loadChildren: () => import('./basic-alert/basic-alert.module').then(module => module.BasicAlertModule)
       },
       {

@@ -50,49 +50,43 @@ const NavigationItems = [
     icon: 'feather icon-layers',
     children: [
       {
-        id: 'basic',
-        title: 'vol',
+        id: 'VOLS',
+        title: 'Gestion de vol',
         type: 'collapse',
         icon: 'feather icon-box',
         children: [
           {
             id: 'recherche-vol',
-            title: 'Recherche vol',
+            title: 'Ajouter vols',
             type: 'item',
-            url: '/basic/recherche-vol'
+            url: '/VOLS/Ajouter-vols'
           },
           {
             id: 'button',
             title: 'liste de vol',
             type: 'item',
-            url: '/basic/button'
+            url: '/VOLS/button'
           },
           {
             id: 'badges',
             title: 'Détail du vol',
             type: 'item',
-            url: '/basic/badges'
+            url: '/VOLS/badges'
           }
          
         ]
       },
       {
-        id: 'basicc',
-        title: 'hotel',
+        id: 'Utilisateur',
+        title: 'Gestion Utilisateur ',
         type: 'collapse',
         icon: 'feather icon-box',
         children: [
           {
-            id: 'liste-hotel',
-            title: 'liste hotel',
+            id: 'Utilisateur',
+            title: 'Utilisateur',
             type: 'item',
-            url: '/basic/liste-hotel'
-          },
-          {
-            id: 'Recherche-hotel',
-            title: 'Recherche hotel',
-            type: 'item',
-            url: '/basic/collapse'
+            url: '/GestionUser/User'
           }
           
         ]

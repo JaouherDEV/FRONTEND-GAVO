@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
+
 const routes: Routes = [
   {
     path: '',
     children: [
-    
       {
-        path: 'signin',
-        loadChildren: () => import('./auth-signin/auth-signin.module').then(module => module.AuthSigninModule)
+        path: 'User',
+        loadChildren: () => import('./ui-user/ui-user.module').then(module => module.UiUserModule)
       }
     ]
   }
@@ -18,4 +18,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class AuthenticationRoutingModule { }
+export class UiUtilisateurRoutingModule { }

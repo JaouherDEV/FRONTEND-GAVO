@@ -1,11 +1,11 @@
 <div class="auth-wrapper">
   <div class="auth-content text-center">
-    <img src="assets/images/auth/auth-logo.png" alt="" class="img-fluid mb-4">
+    <!--<img src="assets/images/logo.png" alt="" class="img-fluid mb-4">-->
     <div class="card borderless">
       <div class="row align-items-center text-center">
         <div class="col-md-12">
           <div class="card-body">
-            <h4 class="mb-3 f-w-400">Signin</h4>
+            <h4 class="mb-3 f-w-400"><img src="assets/images/logo.png" alt="" class="img-fluid mb-6"></h4>
             <div class="input-group mb-3">
               <input type="email" class="form-control" placeholder="Email address">
             </div>
@@ -18,9 +18,8 @@
                 <label for="checkbox-fill-a1" class="cr"> Save credentials</label>
               </div>
             </div>
-            <button class="btn btn-block btn-primary mb-4">Signin</button>
-            <p class="mb-2 text-muted">Forgot password? <a [routerLink]="['/auth/reset-password']" class="f-w-400">Reset</a></p>
-            <p class="mb-0 text-muted">Don’t have an account? <a [routerLink]="['/auth/signup']" class="f-w-400">Signup</a></p>
+            <button class="btn btn-block btn-primary mb-4"  routerLink="/dashboard/default">Se Connecte </button>
+        
           </div>
         </div>
       </div>
